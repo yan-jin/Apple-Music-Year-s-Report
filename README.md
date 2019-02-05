@@ -6,6 +6,7 @@ First of all, you need to contact privacy_response@apple.com to get all your per
 Put the csv file in the workding directory, then run main.py.
 
 music.read('data.csv', 2019) # 2019 refers to the year you want create report of
+
 music.generate_markdown(topK=20) # topK refers to how many items you want
 
 environment: python 3.6, pandas, tqdm, matplotlib, calmap.
